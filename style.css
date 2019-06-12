@@ -8,7 +8,6 @@ main {
 
 section {}
 
-nav {}
 
 h1 {}
 
@@ -16,9 +15,36 @@ h2 {}
 
 p {}
 
+nav {
+    display: flex;
+    flex-basis: 100vw;
+    justify-content: flex-end;
+
+}
 
 header {
     background-color: #160101;
+
+}
+
+a {
+    font-size: 2rem;
+    text-decoration: none;
+    color: #FAD102;
+    align-self: center;
+    margin-right: 4vw;
+
+}
+
+#navigations-logo {
+    flex-basis: 50vw;
+    align-self: center;
+
+}
+
+.navigations-menu {
+    display: flex;
+    height: 6vw;
 }
 
 footer {}
@@ -26,7 +52,6 @@ footer {}
 
 .kontakt-info {
     display: flex;
-    flex-basis: 100vw;
     flex-wrap: wrap;
     justify-content: center;
     background-color: #160101;
