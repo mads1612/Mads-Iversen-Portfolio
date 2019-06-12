@@ -1,0 +1,48 @@
+body {
+    margin: 0 auto;
+}
+
+main {
+    background-color: #FAD102;
+}
+
+section {}
+
+nav {}
+
+h1 {}
+
+h2 {}
+
+p {}
+
+
+header {
+    background-color: #160101;
+}
+
+footer {}
+
+
+.kontakt-info {
+    display: flex;
+    flex-basis: 100vw;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #160101;
+
+
+}
+
+
+.info {
+    flex-basis: 15vw;
+    text-align: center;
+}
+
+
+figcaption {
+    color: #FAD102;
+    margin-top: 1vw;
+    text-align: center;
+}
