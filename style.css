@@ -158,7 +158,7 @@ a {
 /*     TEMA1      */
 
 
-#tema-1 {
+.tema-1 {
     height: 70vw;
     display: flex;
     background-color: #FAD102;
@@ -166,16 +166,16 @@ a {
 
 }
 
-#right-column {
+.right-column {
     flex-basis: 60vw;
     margin-top: 5vw;
     margin-right: 5vw;
     border: 1vw solid #160101;
     background-color: #160101;
-    height: 55vw;
+    height: 50vw;
 }
 
-#column-txt h1 {
+.txt-top h1 {
     margin-left: 16vw;
     background-color: #160101;
     color: #FAD102;
@@ -183,7 +183,7 @@ a {
 
 }
 
-#column-txt h2 {
+.txt-top h2 {
 
     margin-left: 16vw;
     text-decoration: underline;
@@ -193,7 +193,27 @@ a {
 
 }
 
-#column-txt p {
+.txt-top p {
+    width: 42vw;
+    margin-left: 16vw;
+    background-color: #160101;
+    color: #ffffff;
+    font-size: 1.3vw;
+
+}
+
+
+.txt-bottom h2 {
+    margin-top: 8vw;
+    margin-left: 16vw;
+    text-decoration: underline;
+    background-color: #160101;
+    color: #FAD102;
+    font-size: 2vw;
+
+}
+
+.txt-bottom p {
     width: 42vw;
     margin-left: 16vw;
     background-color: #160101;
@@ -217,8 +237,8 @@ a {
 
 #pic-top {
     position: relative;
-    right: 60vw;
-    top: 38vw;
+    right: 55vw;
+    top: 35vw;
 
 }
 
@@ -233,6 +253,18 @@ a {
     right: 70vw;
     bottom: 22vw;
 }
+
+#dk-screen {
+    position: relative;
+    right: 60vw;
+}
+
+#dk-logo {
+    position: relative;
+    right: 56vw;
+    top: 1vw;
+}
+
 
 footer {}
 
