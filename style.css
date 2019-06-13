@@ -166,6 +166,26 @@ a {
 
 }
 
+
+.tema-2 {
+    height: 70vw;
+    display: flex;
+    background-color: #FAD102;
+    justify-content: flex-start;
+
+}
+
+.left-column {
+    flex-basis: 60w;
+    margin-top: 5vw;
+    border: 1vw solid #160101;
+    background-color: #160101;
+    height: 50vw;
+    margin-left: 5vw;
+    width: 52vw;
+
+}
+
 .right-column {
     flex-basis: 60vw;
     margin-top: 5vw;
@@ -202,6 +222,51 @@ a {
 
 }
 
+.txt-topp h1 {
+    margin-left: 2vw;
+    background-color: #160101;
+    color: #FAD102;
+    font-size: 2vw;
+
+}
+
+.txt-topp h2 {
+
+    margin-left: 2vw;
+    text-decoration: underline;
+    background-color: #160101;
+    color: #FAD102;
+    font-size: 1.5vw;
+
+}
+
+.txt-topp p {
+    width: 42vw;
+    margin-left: 2vw;
+    background-color: #160101;
+    color: #ffffff;
+    font-size: 1.3vw;
+
+}
+
+.txt-middle h2 {
+    margin-top: 5vw;
+    margin-left: 2vw;
+    text-decoration: underline;
+    background-color: #160101;
+    color: #FAD102;
+    font-size: 1.5vw;
+}
+
+.txt-middle p {
+    width: 42vw;
+    margin-left: 2vw;
+    background-color: #160101;
+    color: #ffffff;
+    font-size: 1.3vw;
+}
+
+
 
 .txt-bottom h2 {
     margin-top: 8vw;
@@ -222,8 +287,37 @@ a {
 
 }
 
+.txt-bottomm h2 {
+    margin-top: 5vw;
+
+    margin-left: 2vw;
+    text-decoration: underline;
+    background-color: #160101;
+    color: #FAD102;
+    font-size: 1.5vw;
+
+}
+
+.txt-bottomm p {
+    width: 42vw;
+    margin-left: 2vw;
+    background-color: #160101;
+    color: #ffffff;
+    font-size: 1.3vw;
+
+}
 
 
+
+.right-pictures {
+    position: absolute;
+}
+
+.right-pictures img {
+    position: relative;
+    width: 39vw;
+    height: 20vw;
+}
 
 #left-picures {
     position: absolute;
@@ -256,14 +350,36 @@ a {
 
 #dk-screen {
     position: relative;
-    right: 60vw;
+    right: 45vw;
+    top: 10vw;
+}
+
+#dk-logo img {
+    position: relative;
+    width: 36vw;
+    height: 10vw;
 }
 
 #dk-logo {
     position: relative;
     right: 56vw;
-    top: 1vw;
+    top: 10vw;
 }
+
+.pic-topp {
+    position: relative;
+
+    left: 54vw;
+    top: 7vw;
+
+}
+
+.pic-bottomm {
+    position: relative;
+    left: 54vw;
+    top: 10vw;
+}
+
 
 
 footer {}
