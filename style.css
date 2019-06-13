@@ -380,9 +380,46 @@ a {
     top: 10vw;
 }
 
+/*     OM section       */
 
 
-footer {}
+
+#om {
+    text-align: center;
+    height: 100vw;
+}
+
+#om img {
+
+    height: 30vw;
+    width: 50vw;
+
+}
+
+.left-pic {}
+
+#om-mig {
+    display: flex;
+    margin-right: 2vw;
+}
+
+#erfaring {
+    flex-direction: row-reverse;
+    display: flex;
+    margin-left: 2vw;
+
+}
+
+#kompetencer {
+    display: flex;
+    margin-right: 2vw;
+
+}
+
+.om-txt {
+    flex-basis: 50%;
+    font-size: 2vw;
+}
 
 
 #kontakt-info {
@@ -393,6 +430,7 @@ footer {}
 
 }
 
+footer {}
 
 .info {
     width: 15vw;
