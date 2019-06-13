@@ -1,84 +1,91 @@
 <!DOCTYPE html>
-<html lang="">
+<html lang="da">
 
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title></title>
-    <link rel="stylesheet" href="">
+    <title>Om</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
     <header>
-        <section class="Navigations-menu">
-            <article>
-                <nav>
-                    <a href="om.html">Mig</a>
-                    <a href="portfolio.html">Portfolio</a>
-                    <a href="tema1.html">Tema1</a>
-                    <a href="tema2.html">Tema2</a>
-                    <a href="tema3.html">Tema3</a>
-                    <a href="tema4.html">Tema4</a>
-                </nav>
-            </article>
-        </section>
-    </header>
+        <nav>
+            <figure id="navigations-logo"><img src="billeder/logogul.png" alt="Facebook">
+                <figcaption>
+                    <p>Mads Iversen</p>
+                </figcaption>
+            </figure>
+            <a href="om.html">Mig</a>
+            <a href="portfolio.html">Portfolio</a>
 
+            <!--
+                <a href="tema1.html">Tema1</a>
+                <a href="tema2.html">Tema2</a>
+                <a href="tema3.html">Tema3</a>
+                <a href="tema4.html">Tema4</a>
+-->
+
+        </nav>
+    </header>
     <main id="om">
         <section id="om-mig">
-            <figure>
-                <img src="billeder/.png" alt="Profil">
+            <figure class="left-pic">
+                <img src="billeder/profil.jpg" alt="Profil">
             </figure>
-            <h1>Om mig</h1>
-            <p>Lorem ipsum dolor sit amet, eleifend urna fringilla sapien orci, arcu tristique mi mattis. Blandit maecenas duis praesent dolor nisl. Phasellus tellus libero nunc, sed ante libero in turpis. Aliquam in vel nullam vitae lacus, nulla lacus eu, nisl a, fringilla cras per. Feugiat ipsum sapien magna </p>
+            <article class="om-txt">
+                <h1>Om mig</h1>
+                <p>Lorem ipsum dolor sit amet, eleifend urna fringilla sapien orci, arcu tristique mi mattis. Blandit maecenas duis praesent dolor nisl. Phasellus tellus libero nunc, sed ante libero in turpis. Aliquam in vel nullam vitae lacus, nulla lacus eu, nisl a, fringilla cras per. Feugiat ipsum sapien magna </p>
+            </article>
         </section>
         <section id="erfaring">
-
-            <h1>Erfaring</h1>
-            <p>Lorem ipsum dolor sit amet, eleifend urna fringilla sapien orci, arcu tristique mi mattis. Blandit maecenas duis praesent dolor nisl. Phasellus tellus libero nunc, sed ante libero in turpis. Aliquam in vel nullam vitae lacus, nulla lacus eu, nisl a, fringilla cras per. Feugiat ipsum sapien magna </p>
             <figure>
-                <img src="billeder/.png" alt="Firma">
+                <img src="billeder/profil.jpg" alt="Firma">
             </figure>
+            <article class="om-txt">
+                <h1>Erfaring</h1>
+                <p>Lorem ipsum dolor sit amet, eleifend urna fringilla sapien orci, arcu tristique mi mattis. Blandit maecenas duis praesent dolor nisl. Phasellus tellus libero nunc, sed ante libero in turpis. Aliquam in vel nullam vitae lacus, nulla lacus eu, nisl a, fringilla cras per. Feugiat ipsum sapien magna </p>
+            </article>
 
         </section>
         <section id="kompetencer">
             <figure>
-                <img src="billeder/.png" alt="Evner">
+                <img src="billeder/profil.jpg" alt="Evner">
             </figure>
-            <h1>Kompetencer</h1>
-            <p>Lorem ipsum dolor sit amet, eleifend urna fringilla sapien orci, arcu tristique mi mattis. Blandit maecenas duis praesent dolor nisl. Phasellus tellus libero nunc, sed ante libero in turpis. Aliquam in vel nullam vitae lacus, nulla lacus eu, nisl a, fringilla cras per. Feugiat ipsum sapien magna </p>
+            <article class="om-txt">
 
+                <h1>Kompetencer</h1>
+                <p>Lorem ipsum dolor sit amet, eleifend urna fringilla sapien orci, arcu tristique mi mattis. Blandit maecenas duis praesent dolor nisl. Phasellus tellus libero nunc, sed ante libero in turpis. Aliquam in vel nullam vitae lacus, nulla lacus eu, nisl a, fringilla cras per. Feugiat ipsum sapien magna </p>
+            </article>
         </section>
 
     </main>
 
 
     <footer>
-        <section class="kontakt-info">
-            <article>
-                <figure>
-                    <img src="billeder/name.png" alt="Navn">
-                    <figcaption>Mads Iversen</figcaption>
-                </figure>
-                <figure>
-                    <img src="billeder/email.png" alt="Email">
-                    <figcaption>Madsiversen@hotmail.com</figcaption>
-                </figure>
-                <figure>
-                    <img src="billeder/tlf.png" alt="Telefon">
-                    <figcaption>+45 60769004</figcaption>
-                </figure>
-                <figure>
-                    <img src="billeder/adresse.png" alt="Adresse">
-                    <figcaption>2400 København NV</figcaption>
-                </figure>
-                <figure>
-                    <img src="billeder/facebook.png" alt="Facebook">
-                    <figcaption>Min Facebook</figcaption>
-                </figure>
+        <section id="kontakt-row">
+            <figure class="circle">
+                <img src="billeder/name.png" alt="Navn">
+                <figcaption>Mads Iversen</figcaption>
+            </figure>
+            <figure class="circle">
+                <img src="billeder/email.png" alt="Email">
+                <figcaption>Madsiversen@hotmail.com</figcaption>
+            </figure>
+            <figure class="circle">
+                <img src="billeder/tlf.png" alt="Telefon">
+                <figcaption>+45 60769004</figcaption>
+            </figure>
+            <figure class="circle">
+                <img src="billeder/adresse.png" alt="Adresse">
+                <figcaption>2400 København NV</figcaption>
+            </figure>
+            <figure class="circle">
+                <img src="billeder/facebook.png" alt="Facebook">
+                <figcaption>Min Facebook</figcaption>
+            </figure>
 
-            </article>
         </section>
     </footer>
 
