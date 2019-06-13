@@ -15,59 +15,162 @@ h2 {}
 
 p {}
 
-nav {
-    display: flex;
-    flex-basis: 100vw;
-    justify-content: flex-end;
 
-}
 
 header {
+    position: fixed;
+    width: 100%;
     background-color: #160101;
+    height: 6vw;
 
 }
 
-a {
-    font-size: 2rem;
-    text-decoration: none;
-    color: #FAD102;
-    align-self: center;
-    margin-right: 4vw;
+
+
+
+
+
+nav {
+    display: flex;
+    height: 5vw;
 
 }
 
 #navigations-logo {
-    flex-basis: 50vw;
+    margin-right: 65vw;
+    display: flex;
+    height: 4vw;
+}
+
+#navigations-logo img {
+    height: 4vw;
+}
+
+nav figcaption {
+    color: #FAD102;
+    width: 6vw;
+    align-self: center;
+    margin-left: 2vw;
+
+}
+
+a {
+    font-size: 1.7rem;
+    text-decoration: none;
+    color: #FAD102;
+    align-self: center;
+    margin-right: 2vw;
+    margin-top: 1vw;
+
+
+}
+
+#portfolio {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+#front-page {
+    margin-top: 6vw;
     align-self: center;
 
 }
 
-.navigations-menu {
+#splash img {
+    height: 40vw;
+
+}
+
+
+
+#top-txt {
+    flex-basis: 19vw;
+    flex 2;
+    align-self: center;
+
+}
+
+#top-txt #txt {
+    text-align: center;
+    font-size: 2.5rem;
+    width: 50vw;
+
+}
+
+#top-row {
     display: flex;
-    height: 6vw;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+    width: 100vw;
+    flex: 3;
+}
+
+
+#top-row img {
+    width: 35vw;
+    margin-top: 10vw;
+
+
+}
+
+#bottom-row {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+    width: 100vw;
+    flex: 3;
+    margin-bottom: 10vw;
+
+
+
+}
+
+#bottom-row img {
+    margin-top: 10vw;
+    width: 35vw;
+
+}
+
+#ux {
+    margin-top: 3.2vw;
+}
+
+.txt {
+    border: solid #160101;
+    margin-top: 2vw;
+    color: #FAD102;
+    line-height: 0.6rem;
+    font-size: 1.5rem;
+    background-color: #160101;
+
+
+
 }
 
 footer {}
 
 
-.kontakt-info {
+#kontakt-info {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
     background-color: #160101;
-
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
 
 }
 
 
 .info {
-    flex-basis: 15vw;
-    text-align: center;
+    width: 15vw;
 }
 
 
-figcaption {
+#kontakt-info figcaption {
     color: #FAD102;
-    margin-top: 1vw;
-    text-align: center;
 }
+
+@media(max-width: 500px) {
