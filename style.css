@@ -18,7 +18,7 @@ p {}
 
 
 header {
-    position: fixed;
+    /*    position: fixed;*/
     width: 100%;
     background-color: #160101;
     height: 6vw;
@@ -152,6 +152,86 @@ a {
 
 
 
+}
+
+
+/*     TEMA1      */
+
+
+#tema-1 {
+    height: 70vw;
+    display: flex;
+    background-color: #FAD102;
+    justify-content: flex-end;
+
+}
+
+#right-column {
+    flex-basis: 60vw;
+    margin-top: 5vw;
+    margin-right: 5vw;
+    border: 1vw solid #160101;
+    background-color: #160101;
+    height: 55vw;
+}
+
+#column-txt h1 {
+    margin-left: 16vw;
+    background-color: #160101;
+    color: #FAD102;
+    font-size: 2.5vw;
+
+}
+
+#column-txt h2 {
+
+    margin-left: 16vw;
+    text-decoration: underline;
+    background-color: #160101;
+    color: #FAD102;
+    font-size: 2vw;
+
+}
+
+#column-txt p {
+    width: 42vw;
+    margin-left: 16vw;
+    background-color: #160101;
+    color: #ffffff;
+    font-size: 1.3vw;
+
+}
+
+
+
+
+#left-picures {
+    position: absolute;
+}
+
+#left-picures img {
+    position: relative;
+    width: 20vw;
+    height: 20vw;
+}
+
+#pic-top {
+    position: relative;
+    right: 60vw;
+    top: 38vw;
+
+}
+
+#pic-middle {
+    position: relative;
+    right: 60vw;
+    bottom: 15vw;
+}
+
+#pic-bottom {
+    position: relative;
+    right: 70vw;
+    bottom: 22vw;
 }
 
 footer {}
