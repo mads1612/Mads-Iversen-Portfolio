@@ -163,17 +163,18 @@ a {
     display: flex;
     background-color: #FAD102;
     justify-content: flex-start;
+    width: 100vw;
 
 }
 
 .left-column {
-    flex-basis: 60w;
     margin-top: 5vw;
     border: 1vw solid #160101;
     background-color: #160101;
     height: 50vw;
     margin-left: 5vw;
     width: 52vw;
+
 
 }
 
@@ -458,11 +459,15 @@ footer {
     color: #FAD102;
 }
 
-@media (max-width: 500px) {
+@media only screen and (max-width: 700px) {
+
     #top-row img {
-        max-width: 55vw;
+        max-width: 65vw;
 
+    }
 
+    #bottom-row img {
+        width: 65vw;
 
     }
 }
