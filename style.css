@@ -433,28 +433,29 @@ footer {
 
 #kontakt-row {
     display: flex;
+    width: 100vw;
     justify-content: center;
-    margin-left: 7vw;
-}
 
+}
 
 
 .circle {
-    width: 15vw;
+    flex-basis: 10vw;
     color: #FAD102;
-    align-self: center;
 }
 
 .circle img {
-    width: 8vw;
-    color: #FAD102
+
+    width: 5vw;
+    color: #FAD102;
 }
 
 
 #kontakt-row figcaption {
-    text-align: center;
+    height: 1vw;
     width: 8vw;
     color: #FAD102;
+
 }
 
 @media only screen and (max-width: 700px) {
@@ -484,6 +485,25 @@ footer {
 
     .txt {
         font-size: 2.6vw;
+    }
+
+
+    #kontakt-row {
+        margin-left: 0vw;
+    }
+
+
+    .circle {
+        width: 7vw;
+    }
+
+    .circle img {
+        width: 6vw;
+    }
+
+
+    #kontakt-row figcaption {
+        font-size: 1.3vw;
     }
 
 }
