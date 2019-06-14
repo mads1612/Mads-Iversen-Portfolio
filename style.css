@@ -87,15 +87,13 @@ a {
     flex-basis: 22vw;
     max-width: 50vw;
     align-self: center;
-
-}
-
-#top-txt #txt {
     text-align: center;
     font-size: 2.5vw;
     width: 50vw;
 
 }
+
+
 
 #top-row {
     display: flex;
@@ -463,11 +461,29 @@ footer {
 
     #top-row img {
         max-width: 65vw;
-
     }
 
     #bottom-row img {
         width: 65vw;
+    }
+
+
+    #top-txt p {
+        flex-basis: 32vw;
+        max-width: 50vw;
+        font-size: 3vw;
 
     }
+
+    #top-txt h1 {
+        font-size: 4.5vw;
+
+    }
+
+
+
+    .txt {
+        font-size: 2.6vw;
+    }
+
 }
