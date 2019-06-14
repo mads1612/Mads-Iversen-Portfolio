@@ -16,9 +16,46 @@ p {}
 
 header {
     /*    position: fixed;*/
-    width: 100%;
+    width: 100vw;
     background-color: #160101;
     height: 6vw;
+}
+
+nav {
+    display: flex;
+    height: 5vw;
+    width: 18vw;
+
+}
+
+#navigations-logo {
+    margin-right: 68vw;
+    display: flex;
+    height: 4vw;
+    align-self: center
+}
+
+#navigations-logo img {
+    height: 5vw;
+    width: 5vw;
+}
+
+nav figcaption {
+    color: #FAD102;
+    width: 10vw;
+    margin-left: 2vw;
+    font-size: 1.5vw;
+    text-align: center;
+}
+
+a {
+    font-size: 1.5vw;
+
+    text-decoration: none;
+    color: #FAD102;
+    align-self: center;
+    margin-right: 2vw;
+    margin-top: 1vw;
 }
 
 #forside {
@@ -40,49 +77,18 @@ header {
 }
 
 
-nav {
-    display: flex;
-    height: 5vw;
 
-}
-
-#navigations-logo {
-    margin-right: 65vw;
-    display: flex;
-    height: 4vw;
-}
-
-#navigations-logo img {
-    height: 4vw;
-}
-
-nav figcaption {
-    color: #FAD102;
-    width: 10vw;
-    align-self: center;
-    margin-left: 2vw;
-    font-size: 1.5vw;
-}
-
-a {
-    font-size: 1.5vw;
-
-    text-decoration: none;
-    color: #FAD102;
-    align-self: center;
-    margin-right: 2vw;
-    margin-top: 1vw;
-}
 
 #portfolio {
     display: flex;
     flex-direction: column;
+    width: 100vw
 }
 
 
 #top-txt {
-    flex-basis: 19vw;
-    flex 2;
+    flex-basis: 22vw;
+    max-width: 50vw;
     align-self: center;
 
 }
@@ -99,14 +105,15 @@ a {
     flex-wrap: wrap;
     text-align: center;
     justify-content: center;
-    width: 100vw;
-    flex: 3;
+    width: 90vw;
+    margin-left: 5vw;
+
 }
 
 
 #top-row img {
-    width: 35vw;
-    margin-top: 10vw;
+    max-width: 35vw;
+
 
 
 }
@@ -116,8 +123,8 @@ a {
     flex-wrap: wrap;
     text-align: center;
     justify-content: center;
-    width: 100vw;
-    flex: 3;
+    width: 90vw;
+    margin-left: 5vw;
     margin-bottom: 10vw;
 }
 
@@ -400,25 +407,43 @@ a {
     font-size: 2vw;
 }
 
-footer {}
+footer {
+    background-color: #160101;
+    width: 100vw;
+
+}
 
 #kontakt-row {
     display: flex;
-    background-color: #160101;
     justify-content: center;
-    text-align: center;
+    margin-left: 7vw;
 }
 
 
 
 .circle {
     width: 15vw;
+    color: #FAD102;
+    align-self: center;
+}
+
+.circle img {
+    width: 8vw;
     color: #FAD102
 }
 
 
-#kontakt-info figcaption {
+#kontakt-row figcaption {
+    text-align: center;
+    width: 8vw;
     color: #FAD102;
 }
 
-@media(max-width: 500px) {
+@media (max-width: 500px) {
+    #top-row img {
+        max-width: 55vw;
+
+
+
+    }
+}
