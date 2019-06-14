@@ -506,4 +506,34 @@ footer {
         font-size: 1.3vw;
     }
 
+
+
+
+    #om img {
+
+        height: 70vw;
+        width: 80vw;
+
+    }
+
+    .om-txt {
+        color: #FAD102;
+        background-color: #160101;
+        border: solid #160101 5vw;
+        flex-basis: 70%;
+        font-size: 4vw;
+        margin-bottom: 10vw;
+        margin-top: 10vw;
+
+
+        ;
+
+    }
+
+    .om-txt h1 {
+        font-size: 5vw;
+        text-align: center;
+    }
+
+
 }
