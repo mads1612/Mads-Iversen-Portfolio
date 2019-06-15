@@ -59,19 +59,20 @@ a {
 }
 
 #forside {
-    display: flex;
-
     height: 49vw;
 }
 
-#forside-contendt {
-    flex-basis: 100%;
-    background-image: url(billeder/logo27.svg);
-    background-repeat: no-repeat;
-    background-size: 100%;
+#splash {
+    display: flex;
+    justify-content: center;
+
 }
 
-#forside-logo img {}
+#forside-logo {
+    margin-top: 0vw;
+    margin-bottom: 0vw;
+
+}
 
 
 
@@ -583,6 +584,22 @@ footer {
         margin-left: 17vw;
         font-size: 4vw;
     }
+
+    #forside {
+        display: flex;
+
+        height: 120vw;
+    }
+
+    #forside-contendt {}
+
+    #forside-logo img {
+        widows: 2vw;
+        background-size:
+    }
+
+
+
 
 
 }
