@@ -8,11 +8,42 @@ main {
 
 section {}
 
-h1 {}
+h1 {
+    font-family: star-bold;
+}
 
-h2 {}
+h2 {
+    font-family: star-regular;
+}
 
-p {}
+p {
+    font-family: tryst;
+}
+
+
+@font-face {
+    font-family: tryst;
+    src: url('fonts/tryst/tryst-regular-webfont.woff2') format('woff2'),
+        url('font/tryst/tryst-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: star-regular;
+    src: url('fonts/star-regular/stardosstencil-regular-webfont.woff2') format('woff2'),
+        url('font/tryst/tryst-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: star-bold;
+    src: url('fonts/star-bold/stardosstencil-bold-webfont.woff2') format('woff2'),
+        url('font/tryst/tryst-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
 
 header {
     /*    position: fixed;*/
@@ -59,20 +90,24 @@ a {
 }
 
 #forside {
-    height: 49vw;
+    height: 100%;
+    display: flex;
+
 }
 
 #splash {
-    display: flex;
     justify-content: center;
 
 }
 
 #forside-logo {
-    margin-top: 0vw;
-    margin-bottom: 0vw;
-
+    margin: 0;
 }
+
+#forside-logo img {
+    max-width: 100%;
+}
+
 
 
 
@@ -128,7 +163,6 @@ a {
 
 #top-row img {
     max-width: 35vw;
-
 
 
 }
@@ -189,11 +223,10 @@ a {
     margin-top: 5vw;
     border: 1vw solid #160101;
     background-color: #160101;
-    height: 50vw;
+    height: 55vw;
     margin-left: 5vw;
     width: 52vw;
-
-
+    border-radius: 2vw;
 }
 
 .right-column {
@@ -203,6 +236,8 @@ a {
     border: 1vw solid #160101;
     background-color: #160101;
     height: 50vw;
+    border-radius: 2vw;
+
 }
 
 .txt-top h1 {
@@ -216,7 +251,7 @@ a {
 .txt-top h2 {
 
     margin-left: 16vw;
-    text-decoration: underline;
+
     background-color: #160101;
     color: #FAD102;
     font-size: 2vw;
@@ -243,7 +278,6 @@ a {
 .txt-top2 h2 {
 
     margin-left: 2vw;
-    text-decoration: underline;
     background-color: #160101;
     color: #FAD102;
     font-size: 1.5vw;
@@ -262,7 +296,6 @@ a {
 .txt-middle h2 {
     margin-top: 5vw;
     margin-left: 2vw;
-    text-decoration: underline;
     background-color: #160101;
     color: #FAD102;
     font-size: 1.5vw;
@@ -279,7 +312,6 @@ a {
 .txt-bottom h2 {
     margin-top: 8vw;
     margin-left: 16vw;
-    text-decoration: underline;
     background-color: #160101;
     color: #FAD102;
     font-size: 2vw;
@@ -299,7 +331,6 @@ a {
     margin-top: 5vw;
 
     margin-left: 2vw;
-    text-decoration: underline;
     background-color: #160101;
     color: #FAD102;
     font-size: 1.5vw;
@@ -585,18 +616,12 @@ footer {
         font-size: 4vw;
     }
 
-    #forside {
-        display: flex;
+    #forside {}
 
-        height: 120vw;
-    }
+    #splash {}
 
-    #forside-contendt {}
 
-    #forside-logo img {
-        widows: 2vw;
-        background-size:
-    }
+    #forside-logo img {}
 
 
 
