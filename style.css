@@ -84,14 +84,33 @@ a {
 
 
 #top-txt {
-    flex-basis: 22vw;
-    max-width: 50vw;
+    margin-top: 4vw;
+    flex-basis: 20vw;
     align-self: center;
-    text-align: center;
-    font-size: 2.5vw;
-    width: 50vw;
+    border-radius: 3vw;
+    color: #FAD102;
+    background-color: #160101;
+    margin-bottom: 4vw;
 
 }
+
+#top-txt p {
+    font-size: 2.5vw;
+    width: 60vw;
+    margin-left: 2vw;
+
+
+}
+
+#top-txt h1 {
+    margin-top: 3.5vw;
+    font-size: 3vw;
+    text-align: center;
+
+
+
+}
+
 
 
 
@@ -480,7 +499,7 @@ footer {
 
 }
 
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 800px) {
 
     #top-row img {
         max-width: 65vw;
