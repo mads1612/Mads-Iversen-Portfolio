@@ -211,11 +211,11 @@ a {
 
 
 .tema-container2 {
-    height: 70vw;
     display: flex;
+    height: 70vw;
     background-color: #FAD102;
-    justify-content: flex-start;
     width: 100vw;
+
 
 }
 
@@ -230,7 +230,7 @@ a {
 }
 
 .right-column {
-    flex-basis: 60vw;
+    flex-basis: 70vw;
     margin-top: 5vw;
     margin-right: 5vw;
     border: 1vw solid #160101;
@@ -347,13 +347,16 @@ a {
 }
 
 .right-pictures {
-    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 4vw
 }
 
 .right-pictures img {
-    position: relative;
     width: 39vw;
     height: 20vw;
+    margin-bottom: 5vw
 }
 
 #left-picures {
@@ -402,19 +405,9 @@ a {
     top: 10vw;
 }
 
-.pic-top2 {
-    position: relative;
+.pic-top2 {}
 
-    left: 54vw;
-    top: 7vw;
-
-}
-
-.pic-bottom2 {
-    position: relative;
-    left: 54vw;
-    top: 10vw;
-}
+.pic-bottom2 {}
 
 /*     OM section       */
 
@@ -625,6 +618,85 @@ footer {
 
 
 
+
+    .tema-container2 {
+        height: 120vw;
+
+
+    }
+
+    .left-column {
+        height: 105vw;
+        width: 80vw;
+        border: 2vw solid #160101;
+        border-radius: 2vw;
+    }
+
+    .txt-top2 h1 {
+        font-size: 4vw;
+
+    }
+
+    .txt-top2 h2 {
+        text-align: center;
+        font-size: 3vw;
+        margin: 0;
+
+    }
+
+    .txt-top2 p {
+        width: 38vw;
+        font-size: 2vw;
+        margin-left: 3vw;
+
+    }
+
+    .txt-middle h2 {
+        text-align: center;
+        font-size: 3vw;
+        margin: 0;
+
+    }
+
+
+    .txt-middle p {
+        width: 38vw;
+        font-size: 2vw;
+        margin-left: 3vw;
+
+    }
+
+
+    .txt-bottom2 h2 {
+        text-align: center;
+        font-size: 3vw;
+        margin: 0;
+
+
+    }
+
+    .txt-bottom2 p {
+        width: 38vw;
+        font-size: 2vw;
+        margin-left: 3vw;
+
+
+    }
+
+    .right-pictures {}
+
+    .right-pictures img {
+        width: 45vw;
+        height: 30vw;
+    }
+
+    .pic-top2 {
+        margin-left: 2vw;
+    }
+
+    .pic-bottom2 {
+        margin-left: 2vw;
+    }
 
 
 }
