@@ -372,12 +372,16 @@ a {
 #om {
     height: 100%;
     width: 100vw;
+
+
 }
 
 #om img {
 
-    height: 30vw;
-    width: 40vw;
+    height: 25vw;
+    width: 30vw;
+    margin-top: vw;
+
 
 }
 
@@ -385,11 +389,12 @@ a {
 
 
 #om-mig {
+
     display: flex;
     width: 90vw;
     flex-wrap: wrap;
     justify-content: center;
-    margin-left: 5vw;
+    margin-left: 3vw;
 
 
 
@@ -411,17 +416,34 @@ a {
     width: 90vw;
     flex-wrap: wrap;
     justify-content: center;
-    margin-left: 5vw;
+    margin-left: 3vw;
 
 
 }
 
 .om-txt {
-    flex-basis: 40%;
-    font-size: 2vw;
-    margin-left: 2vw;
-    margin-right: 2vw;
+    flex-basis: 30vw;
+    height: 23vw;
+    border-radius: 3vw;
+    border: solid #160101;
+    background-color: #160101;
+    color: #FAD102;
+    align-self: center;
 
+}
+
+.om-txt p {
+    width: 24vw;
+    margin-left: 3.5vw;
+    font-size: 1.5vw;
+
+}
+
+.om-txt h1 {
+    text-align: center;
+    width: 20vw;
+    margin-left: 5vw;
+    font-size: 2vw;
 
 }
 
@@ -510,29 +532,37 @@ footer {
 
 
     #om img {
+        height: 55vw;
+        width: 65vw;
+        margin-top: 2vw;
+        margin-left: 2vw;
 
-        height: 70vw;
-        width: 80vw;
 
     }
 
+
+
     .om-txt {
-        color: #FAD102;
-        background-color: #160101;
-        border: solid #160101 5vw;
-        flex-basis: 70%;
-        font-size: 4vw;
-        margin-bottom: 10vw;
-        margin-top: 10vw;
+        flex-basis: 60vw;
+        height: 43vw;
+        border-radius: 3vw;
+        margin-bottom: 5vw;
+        margin-left: 2vw;
 
 
-        ;
+    }
+
+    .om-txt p {
+        width: 44vw;
+        margin-left: 8vw;
+        font-size: 2.9vw;
 
     }
 
     .om-txt h1 {
-        font-size: 5vw;
         text-align: center;
+        margin-left: 17vw;
+        font-size: 4vw;
     }
 
 
