@@ -393,26 +393,16 @@ a {
 }
 
 #dk-screen {
-    position: relative;
-    right: 45vw;
-    top: 10vw;
+    width: 30vw;
+    height: 22vw;
+    margin-top: 10vw;
 }
 
-#dk-logo img {
-    position: relative;
-    width: 36vw;
-    height: 10vw;
+
+
+#dk-virksomhedsvideo {
+    align-self: center;
 }
-
-#dk-logo {
-    position: relative;
-    right: 56vw;
-    top: 10vw;
-}
-
-.pic-top2 {}
-
-.pic-bottom2 {}
 
 /*     OM section       */
 
@@ -781,6 +771,20 @@ footer {
         height: 25vw;
     }
 
+
+    #dk-screen {
+        width: 30vw;
+        height: 22vw;
+        margin-top: 20vw;
+    }
+
+
+
+    #dk-virksomhedsvideo {
+        margin-top: 10vw;
+        width: 30vw;
+        align-self: center;
+    }
 
 
 }
