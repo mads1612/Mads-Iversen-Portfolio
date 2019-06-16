@@ -186,6 +186,60 @@ a {
     margin-top: 1vw;
 }
 
+.dropdown {
+    position: absolute;
+    left: 90vw;
+    top: 2vw;
+    width: 7vw;
+
+    line-height: 2.1vw;
+    font-size: 1.3vw;
+    color: #160101;
+    height: 10vw;
+    opacity: 0;
+
+
+}
+
+.dropdown-content p {
+    position: relative;
+    left: 1.3vw;
+    top: 1.5vw;
+
+    color: #FAD102;
+
+}
+
+.dropbutton {
+    position: relative;
+    opacity: 0;
+
+}
+
+.dropdown-content {
+    opacity: ;
+    position: relative;
+    right: 1vw;
+    bottom: 1vw;
+    background-color: #160101;
+
+
+}
+
+.dropdown-content a:hover {
+    color: purple;
+}
+
+
+.dropdown:hover {
+    opacity: 1;
+}
+
+.dropdown-content a {
+    position: relative;
+    left: 1.3vw;
+}
+
 #forside {
     height: 100%;
     display: flex;
@@ -310,6 +364,17 @@ a {
     color: #160101;
 
 }
+
+#knap:active {
+    transform: translateY(22px);
+}
+
+#knap:hover {
+    background-color: #ffffff;
+
+
+}
+
 
 
 .tema-container1 {
