@@ -1,19 +1,21 @@
 body {
     margin: 0 auto;
-}
-
-main {
     background-color: #FAD102;
 }
+
+main {}
 
 section {}
 
 h1 {
     font-family: star-bold;
+    color: #FAD102;
 }
 
 h2 {
     font-family: star-regular;
+    color: #FAD102;
+
 }
 
 p {
@@ -23,14 +25,13 @@ p {
 
 
 
-
 #hover-square-tema1 {
     font-family: tryst;
     position: absolute;
     width: 35vw;
     height: 25vw;
     right: 45vw;
-    top: 106vw;
+    top: 96vw;
     opacity: 0;
 
 }
@@ -41,7 +42,7 @@ p {
     width: 35vw;
     height: 25vw;
     right: 8vw;
-    top: 106vw;
+    top: 96vw;
     opacity: 0;
 
 }
@@ -52,7 +53,7 @@ p {
     width: 35vw;
     height: 25vw;
     right: 45vw;
-    top: 152vw;
+    top: 142vw;
     opacity: 0;
 
 }
@@ -63,7 +64,7 @@ p {
     width: 35vw;
     height: 25vw;
     right: 8vw;
-    top: 152vw;
+    top: 142vw;
     opacity: 0;
 
 }
@@ -169,7 +170,6 @@ nav {
 }
 
 nav figcaption {
-    color: #FAD102;
     width: 10vw;
     margin-left: 2vw;
     font-size: 1.5vw;
@@ -178,7 +178,6 @@ nav figcaption {
 
 a {
     font-size: 1.5vw;
-
     text-decoration: none;
     color: #FAD102;
     align-self: center;
@@ -194,7 +193,7 @@ a {
     line-height: 2.1vw;
     font-size: 1.3vw;
     height: 10vw;
-    opacity: ;
+    opacity: 0;
 
 
 }
@@ -221,7 +220,6 @@ a {
     bottom: 1vw;
     background-color: #160101;
 
-
 }
 
 .dropdown-content a:hover {
@@ -239,13 +237,11 @@ a {
 }
 
 #forside {
-    height: 100%;
     display: flex;
-
 }
 
 #splash {
-    justify-content: center;
+    flex-basis: 100%;
 
 }
 
@@ -254,7 +250,7 @@ a {
 }
 
 #forside-logo img {
-    max-width: 100%;
+    width: 100%;
 }
 
 
@@ -273,7 +269,6 @@ a {
     flex-basis: 20vw;
     align-self: center;
     border-radius: 3vw;
-    color: #FAD102;
     background-color: #160101;
     margin-bottom: 4vw;
 
@@ -373,6 +368,11 @@ a {
 
 }
 
+#portfolio .tema-container2 {
+    height: 60vw;
+}
+
+
 #portfolio .tema-container2 p {
     width: 36vw;
     font-size: 1vw;
@@ -411,7 +411,6 @@ a {
 .tema-container1 {
     height: 70vw;
     display: flex;
-    background-color: #FAD102;
     justify-content: flex-end;
 
 
@@ -429,7 +428,6 @@ a {
 .tema-container2 {
     display: flex;
     height: 70vw;
-    background-color: #FAD102;
     width: 100vw;
 
     visibility: ;
@@ -461,8 +459,6 @@ a {
 
 .txt-top h1 {
     margin-left: 2vw;
-    background-color: #160101;
-    color: #FAD102;
     font-size: 2.5vw;
 
 }
@@ -470,8 +466,6 @@ a {
 .txt-top h2 {
 
     margin-left: 2vw;
-    background-color: #160101;
-    color: #FAD102;
     font-size: 1.8vw;
 
 
@@ -480,8 +474,6 @@ a {
 .txt-top p {
     width: 42vw;
     margin-left: 2vw;
-    background-color: #160101;
-    color: #ffffff;
     font-size: 1.5vw;
 
 
@@ -489,8 +481,6 @@ a {
 
 .txt-top2 h1 {
     margin-left: 2vw;
-    background-color: #160101;
-    color: #FAD102;
     font-size: 2vw;
 
 }
@@ -498,8 +488,6 @@ a {
 .txt-top2 h2 {
 
     margin-left: 2vw;
-    background-color: #160101;
-    color: #FAD102;
     font-size: 1.5vw;
 
 }
@@ -507,8 +495,6 @@ a {
 .txt-top2 p {
     width: 42vw;
     margin-left: 2vw;
-    background-color: #160101;
-    color: #ffffff;
     font-size: 1.2vw;
 
 }
@@ -516,24 +502,18 @@ a {
 .txt-middle h2 {
     margin-top: 3vw;
     margin-left: 2vw;
-    background-color: #160101;
-    color: #FAD102;
     font-size: 1.5vw;
 }
 
 .txt-middle p {
     width: 42vw;
     margin-left: 2vw;
-    background-color: #160101;
-    color: #ffffff;
     font-size: 1.2vw;
 }
 
 .txt-bottom h2 {
     margin-top: 5vw;
     margin-left: 2vw;
-    background-color: #160101;
-    color: #FAD102;
     font-size: 1.8vw;
 
 
@@ -542,8 +522,6 @@ a {
 .txt-bottom p {
     width: 42vw;
     margin-left: 2vw;
-    background-color: #160101;
-    color: #ffffff;
     font-size: 1.5vw;
 
 }
@@ -552,8 +530,6 @@ a {
     margin-top: 3vw;
 
     margin-left: 2vw;
-    background-color: #160101;
-    color: #FAD102;
     font-size: 1.5vw;
 
 }
@@ -561,8 +537,6 @@ a {
 .txt-bottom2 p {
     width: 42vw;
     margin-left: 2vw;
-    background-color: #160101;
-    color: #ffffff;
     font-size: 1.3vw;
 
 }
@@ -636,7 +610,9 @@ a {
 
     height: 25vw;
     width: 30vw;
-    margin-top: vw;
+    margin-left: 5vw;
+    margin-right: 5vw;
+
 
 
 }
@@ -645,12 +621,12 @@ a {
 
 
 #om-mig {
+    margin-top: 5vw;
 
     display: flex;
     width: 90vw;
     flex-wrap: wrap;
     justify-content: center;
-    margin-left: 3vw;
 
 
 
@@ -664,16 +640,77 @@ a {
     flex-wrap: wrap;
     justify-content: center;
     margin-left: 5vw;
+    margin-top: 5vw;
 
 }
 
 #kompetencer {
+    margin-top: 5vw;
+
     display: flex;
     width: 90vw;
     flex-wrap: wrap;
     justify-content: center;
     margin-left: 3vw;
+    margin-bottom: 5vw;
 
+
+}
+
+#skillz {
+    margin-right: 5vw;
+
+    flex-basis: 30vw;
+    background-color: #160101;
+    font-size: 1vw;
+
+}
+
+#skillz h1 {
+    margin-left: 5vw;
+
+}
+
+#skillz p {
+    margin-left: 5vw;
+
+}
+
+.container {
+
+    margin-left: 5vw;
+    display: flex;
+    width: 20vw;
+    background-color: #ffffff;
+}
+
+.skills {
+    flex-basis: 22vw;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+
+}
+
+.html {
+
+    flex-basis: 16vw;
+    background-color: #FAD102;
+}
+
+.css {
+    flex-basis: 10vw;
+    background-color: #FAD102;
+}
+
+.js {
+    flex-basis: 7vw;
+    background-color: #FAD102;
+}
+
+.php {
+    flex-basis: 4vw;
+    background-color: #FAD102;
 
 }
 
@@ -683,7 +720,6 @@ a {
     border-radius: 3vw;
     border: solid #160101;
     background-color: #160101;
-    color: #FAD102;
     align-self: center;
 
 }
@@ -711,32 +747,31 @@ footer {
 
 #kontakt-row {
     display: flex;
-    width: 100vw;
     justify-content: center;
 
 }
 
 
 .circle {
-    flex-basis: 10vw;
-    color: #FAD102;
+    flex-basis: 12vw;
 }
 
 .circle img {
-
     width: 5vw;
-    color: #FAD102;
+
 }
 
 
 #kontakt-row figcaption {
     height: 1vw;
-    width: 8vw;
+    width: 6vw;
     color: #FAD102;
+    font-size: 0.7vw;
+
 
 }
 
-@media only screen and (max-width: 800px) {
+# @media only screen and (max-width: 800px) {
 
 
     #top-row img {
