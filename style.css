@@ -188,15 +188,13 @@ a {
 
 .dropdown {
     position: absolute;
-    left: 90vw;
+    left: 90.7vw;
     top: 2vw;
     width: 7vw;
-
     line-height: 2.1vw;
     font-size: 1.3vw;
-    color: #160101;
     height: 10vw;
-    opacity: 0;
+    opacity: ;
 
 
 }
@@ -335,7 +333,7 @@ a {
 }
 
 #bottom-row-ux {
-    margin-top: 3.2vw;
+    margin-top: 2.6vw;
 }
 
 .txt {
@@ -375,6 +373,39 @@ a {
 
 }
 
+#portfolio .tema-container2 p {
+    width: 36vw;
+    font-size: 1vw;
+}
+
+#portfolio .tema-container2 h2 {
+    font-size: 1.3vw;
+}
+
+#portfolio .tema-container2 h1 {
+    font-size: 1.7vw;
+    margin-top: 0;
+}
+
+
+#portfolio .left-column {
+    height: 45vw;
+    width: 40vw;
+    margin-left: 20vw;
+}
+
+
+#portfolio .tema-container2 img {
+    width: 25vw;
+    height: 15vw;
+}
+
+#portfolio .right-pictures {
+    margin-bottom: 8vw;
+    ;
+
+}
+
 
 
 .tema-container1 {
@@ -400,6 +431,8 @@ a {
     height: 70vw;
     background-color: #FAD102;
     width: 100vw;
+
+    visibility: ;
 
 
 
