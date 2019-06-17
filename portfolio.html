@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" />
     <title>Mit portfolio</title>
     <link rel="stylesheet" href="style.css">
 </head>
@@ -12,17 +12,25 @@
 
     <header>
         <nav>
+
             <figure id="navigations-logo"><img src="billeder/logogul.png" alt="Facebook">
                 <figcaption>
                     <p>Mads Iversen</p>
                 </figcaption>
             </figure>
+
+            <div id="menuknap">☰</div>
+
+
             <a href="om.html">Mig</a>
+
             <a href="portfolio.html">Portfolio</a>
 
 
 
+
             <div class="dropdown">
+
                 <div class="dropbutton">
                     <a href="portfolio.html">Portfolio</a>
                 </div>
@@ -36,14 +44,14 @@
                 </div>
             </div>
 
-            <!--
-                <a href="tema1.html">Tema1</a>
-                <a href="tema2.html">Tema2</a>
-                <a href="tema3.html">Tema3</a>
-                <a href="tema4.html">Tema4</a>
--->
-
         </nav>
+
+        <div class="sidebar">
+            <a class="active" href="#home">Home</a>
+            <a href="#news">News</a>
+            <a href="#contact">Contact</a>
+            <a href="#about">About</a>
+        </div>
     </header>
 
 
@@ -58,54 +66,35 @@
             </article>
         </section>
 
-        <main class="tema-container2">
+        <main class="tema-container2 hide" id="tema-container2">
             <section class="left-column">
                 <article class="txt-top2">
-                    <h1>Tema 2</h1>
                     <h2>Grundlægende animation</h2>
                     <p>I denne her opgave stiftede vi bekendtskab med et videointerview. Jeg valgte at have stor fokus på at skabe en historiefortælling med en sammenhængende start og slutning, gode B-Rolls, en variation af framings, og et kort og præcist interview, for at undgå en uinteressant og kedelig lang video uden sammenhæng. </p>
                 </article>
 
-                <div class="knap">
-                    <input id="knap" value="Play" type="submit" />
 
-                    <input id="knap" value="Dokumentationssite" type="submit" />
-                </div>
 
 
 
                 <article class="txt-middle">
                     <h2>Get to the chopper</h2>
                     <p>I denne her opgave stiftede vi bekendtskab med et videointerview. Jeg valgte at have stor fokus på at skabe en historiefortælling med en sammenhængende start og slutning, gode B-Rolls, en variation af framings, og et kort og præcist interview, for at undgå en uinteressant og kedelig lang video uden sammenhæng. </p>
-                </article>
-                <div class="knap">
-                    <input id="knap" value="Play" type="submit" />
 
-                    <input id="knap" value="Dokumentationssite" type="submit" />
-                </div>
+                </article>
+
 
                 <article class="txt-bottom2">
                     <h2>Privat snak</h2>
-                    <p>Lorem ipsum dolor sit amet, eleifend urna fringilla sapien orci, arcu tristique mi mattis. Blandit maecenas duis praesent dolor nisl. Phasellus tellus libero nunc, sed ante libero in turpis. Aliquam in vel nullam vitae lacus, nulla lacus eu, nisl a, fringilla cras per. Feugiat ipsum sapien magna </p>
+                    <p>I denne her opgave stiftede vi bekendtskab med et videointerview. Jeg valgte at have stor fokus på at skabe en historiefortælling med en sammenhængende start og slutning, gode B-Rolls, en variation af framings, og et kort og præcist interview, for at undgå en uinteressant og kedelig lang video uden sammenhæng.</p>
+
+
                 </article>
-                <div class="knap">
-                    <input id="knap" value="Play" type="submit" />
 
-                    <input id="knap" value="Dokumentationssite" type="submit" />
-                </div>
 
             </section>
 
 
-            <section class="right-pictures">
-                <figure class="pic-top2">
-                    <img src="billeder/chopper-screens.png" alt="Chopper screenshots">
-                </figure>
-                <figure class="pic-bottom2">
-                    <img src="billeder/privatsnak-screens.png" alt="Privatsnak screenshots">
-
-                </figure>
-            </section>
 
         </main>
 
@@ -118,44 +107,47 @@
                 <figcaption class="txt">
                     <h1>Tema 1</h1>
                     <h2>Grundlægende web</h2>
+
                 </figcaption>
+                <div id="hover-square-tema1">
+                    <div class="hover-knap"> <a href=".html">Dokumentationssite</a>
+                    </div>
+                    <div class="hover-knap"> <a>Stilarts site</a>
+
+                    </div>
+                    <div class="hover-knap"> <a href=".html">Spil</a>
+                    </div>
+                    <div class="hover-knap"> <a href=".html">Gruppe spil</a>
+                    </div>
+
+
+                </div>
             </figure>
 
-            <div id="hover-square-tema1">
-                <div class="hover-knap"> <a href=".html">Dokumentationssite</a>
-                </div>
-                <div class="hover-knap"> <a>Stilarts site</a>
 
-                </div>
-                <div class="hover-knap"> <a href=".html">Spil</a>
-                </div>
-                <div class="hover-knap"> <a href=".html">Gruppe spil</a>
-                </div>
-
-
-            </div>
 
 
             <figure>
                 <img src="/billeder/chopper-screen.png" alt="Chopper screenshot">
-                <figcaption class="txt">
+                <figcaption class="txt" id="tema2-btn">
                     <h1>Tema 2</h1>
                     <h2>Grundlægende animation</h2>
                 </figcaption>
+                <div id="hover-square-tema2">
+                    <div class="hover-knap"> <a href="portfolio.html">Dokumentationssite</a>
+                    </div>
+                    <div class="hover-knap"> <a href="portfolio.html">Stilarts site</a>
+
+                    </div>
+                    <div class="hover-knap"> <a href="om.html">Spil</a>
+                    </div>
+                    <div class="hover-knap"> <a href="portfolio.html">Gruppe spil</a>
+                    </div>
+
+
+                </div>
             </figure>
-            <div id="hover-square-tema2">
-                <div class="hover-knap"> <a href="portfolio.html">Dokumentationssite</a>
-                </div>
-                <div class="hover-knap"> <a href="portfolio.html">Stilarts site</a>
 
-                </div>
-                <div class="hover-knap"> <a href="om.html">Spil</a>
-                </div>
-                <div class="hover-knap"> <a href="portfolio.html">Gruppe spil</a>
-                </div>
-
-
-            </div>
         </section>
 
         <section id="bottom-row">
@@ -165,22 +157,22 @@
                     <h1>Tema 3</h1>
                     <h2>Grundlægende indhold</h2>
                 </figcaption>
+                <div id="hover-square-tema3">
+                    <div class="hover-knap"> <a href="portfolio.html">Dokumentationssite</a>
+                    </div>
+                    <div class="hover-knap"> <a href="portfolio.html">Stilarts site</a>
 
+                    </div>
+                    <div class="hover-knap"> <a href="om.html">Spil</a>
+                    </div>
+                    <div class="hover-knap"> <a href="portfolio.html">Gruppe spil</a>
+                    </div>
+
+
+                </div>
             </figure>
 
-            <div id="hover-square-tema3">
-                <div class="hover-knap"> <a href="portfolio.html">Dokumentationssite</a>
-                </div>
-                <div class="hover-knap"> <a href="portfolio.html">Stilarts site</a>
 
-                </div>
-                <div class="hover-knap"> <a href="om.html">Spil</a>
-                </div>
-                <div class="hover-knap"> <a href="portfolio.html">Gruppe spil</a>
-                </div>
-
-
-            </div>
 
             <figure id="bottom-row-ux">
                 <img src="billeder/mobil-screens2.png" alt="App screenshot">
@@ -188,20 +180,22 @@
                     <h1>Tema 4</h1>
                     <h2>Grundlægende UX</h2>
                 </figcaption>
+                <div id="hover-square-tema4">
+                    <div class="hover-knap"> <a href=".html">Dokumentationssite</a>
+                    </div>
+                    <div class="hover-knap"> <a href=".html">Stilarts site</a>
+
+                    </div>
+                    <div class="hover-knap"> <a href=".html">Spil</a>
+                    </div>
+                    <div class="hover-knap"> <a href=".html">Gruppe spil</a>
+                    </div>
+
+
+                </div>
             </figure>
-            <div id="hover-square-tema4">
-                <div class="hover-knap"> <a href=".html">Dokumentationssite</a>
-                </div>
-                <div class="hover-knap"> <a href=".html">Stilarts site</a>
-
-                </div>
-                <div class="hover-knap"> <a href=".html">Spil</a>
-                </div>
-                <div class="hover-knap"> <a href=".html">Gruppe spil</a>
-                </div>
 
 
-            </div>
         </section>
         -->
 
@@ -212,23 +206,33 @@
         <section id="kontakt-row">
             <figure class="circle">
                 <img src="billeder/name.png" alt="Navn">
-                <figcaption>Mads Iversen</figcaption>
+                <figcaption>
+                    <p>Mads Iversen</p>
+                </figcaption>
             </figure>
             <figure class="circle">
                 <img src="billeder/email.png" alt="Email">
-                <figcaption>Madsiversen@hotmail.com</figcaption>
+                <figcaption>
+                    <p>Madsiversen@hotmail.com</p>
+                </figcaption>
             </figure>
             <figure class="circle">
                 <img src="billeder/tlf.png" alt="Telefon">
-                <figcaption>+45 60769004</figcaption>
+                <figcaption>
+                    <p>+45 60769004</p>
+                </figcaption>
             </figure>
             <figure class="circle">
                 <img src="billeder/adresse.png" alt="Adresse">
-                <figcaption>2400 København NV</figcaption>
+                <figcaption>
+                    <p>2400 København NV</p>
+                </figcaption>
             </figure>
             <figure class="circle">
                 <img src="billeder/facebook.png" alt="Facebook">
-                <figcaption>Min Facebook</figcaption>
+                <figcaption>
+                    <p>Min Facebook</p>
+                </figcaption>
             </figure>
 
         </section>

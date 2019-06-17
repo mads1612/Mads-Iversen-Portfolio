@@ -29,45 +29,46 @@ p {
 
 #hover-square-tema1 {
     font-family: tryst;
-    position: absolute;
+    position: relative;
     width: 35vw;
     height: 25vw;
-    right: 45vw;
-    top: 96vw;
-    opacity: 0;
+    left: 5vw;
+    bottom: 34vw;
+    opacity: ;
 
 }
 
 #hover-square-tema2 {
     font-family: tryst;
-    position: absolute;
+    position: relative;
     width: 35vw;
     height: 25vw;
-    right: 8vw;
-    top: 96vw;
-    opacity: 0;
+    left: 5vw;
+    bottom: 34vw;
+    opacity: ;
 
 }
 
 #hover-square-tema3 {
     font-family: tryst;
-    position: absolute;
+    position: relative;
     width: 35vw;
     height: 25vw;
-    right: 45vw;
-    top: 142vw;
-    opacity: 0;
+    left: 5vw;
+    bottom: 34vw;
+    opacity: ;
+
 
 }
 
 #hover-square-tema4 {
     font-family: tryst;
-    position: absolute;
+    position: relative;
     width: 35vw;
     height: 25vw;
-    right: 8vw;
-    top: 142vw;
-    opacity: 0;
+    left: 5vw;
+    bottom: 34vw;
+    opacity: ;
 
 }
 
@@ -76,7 +77,7 @@ p {
     align-self: center;
     height: 3vw;
     width: 25vw;
-    background-color: #FAD102;
+    background-color: red;
     border-radius: 2vw;
     text-align: center;
     margin-top: 1vw;
@@ -275,7 +276,6 @@ nav a {
 
 #top-txt {
     margin-top: 10vw;
-    flex-basis: 18vw;
     align-self: center;
     border-radius: 3vw;
     background-color: #160101;
@@ -327,11 +327,9 @@ nav a {
     justify-content: center;
     width: 90vw;
     margin-left: 5vw;
-    margin-bottom: 10vw;
 }
 
 #bottom-row img {
-    margin-top: 10vw;
     width: 35vw;
 
 }
