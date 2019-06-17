@@ -34,7 +34,7 @@ p {
     height: 25vw;
     left: 5vw;
     bottom: 34vw;
-    opacity: ;
+    opacity: 0;
 
 }
 
@@ -45,7 +45,7 @@ p {
     height: 25vw;
     left: 5vw;
     bottom: 34vw;
-    opacity: ;
+    opacity: 0;
 
 }
 
@@ -56,7 +56,7 @@ p {
     height: 25vw;
     left: 5vw;
     bottom: 34vw;
-    opacity: ;
+    opacity: 0;
 
 
 }
@@ -68,7 +68,7 @@ p {
     height: 25vw;
     left: 5vw;
     bottom: 34vw;
-    opacity: ;
+    opacity: 0;
 
 }
 
@@ -77,7 +77,7 @@ p {
     align-self: center;
     height: 3vw;
     width: 25vw;
-    background-color: red;
+    background-color: #FAD102;
     border-radius: 2vw;
     text-align: center;
     margin-top: 1vw;
@@ -305,12 +305,13 @@ nav a {
 
 #top-row {
     display: flex;
-    flex-wrap: wrap;
     text-align: center;
+
+    flex-wrap: wrap;
     justify-content: center;
     width: 90vw;
     margin-left: 5vw;
-
+    margin-bottom: -20vw
 }
 
 
@@ -327,6 +328,7 @@ nav a {
     justify-content: center;
     width: 90vw;
     margin-left: 5vw;
+    margin-bottom: -10vw
 }
 
 #bottom-row img {
@@ -335,7 +337,7 @@ nav a {
 }
 
 #bottom-row-ux {
-    margin-top: 2.6vw;
+    background-color:
 }
 
 .txt {
@@ -835,25 +837,33 @@ footer {
         width: 65vw;
     }
 
+    #top-row {
+        margin-bottom: -1vw;
+    }
+
+    #bottom-row {
+        margin-bottom: -10vw;
+    }
 
     #top-txt {
-        flex-basis: 32vw;
-        width: 70vw;
+        margin-left: 4.5vw;
+        flex-basis: 20vw;
+        width: 60vw;
     }
 
     #top-txt p {
         margin-left: 10vw;
         flex-basis: 32vw;
-        width: 60vw;
-        font-size: 3vw;
+        width: 43vw;
+        font-size: 2vw;
     }
 
     #top-txt h1 {
-        font-size: 4.5vw;
+        font-size: 3.5vw;
     }
 
     .txt {
-        font-size: 2.6vw;
+        font-size: 2vw;
     }
 
     footer {
@@ -1204,41 +1214,34 @@ footer {
     }
 
     #portfolio .tema-container2 {
-        height: 145vw;
+        height: 40vw;
+
     }
 
 
     #portfolio .tema-container2 p {
-        width: 36vw;
-        font-size: 2vw;
+        margin: 2vw;
+        width: 15vw;
+        font-size: 1.3vw;
     }
+
 
     #portfolio .tema-container2 h2 {
-        font-size: 2.8vw;
+        font-size: 1.6vw;
+        margin-left: 0;
     }
 
-    #portfolio .tema-container2 h1 {
-        font-size: 2vw;
-    }
+
 
 
     #portfolio .left-column {
-        height: 125vw;
+        height: 32vw;
         width: 70vw;
-        margin-left: 10vw;
-    }
-
-
-    #portfolio .tema-container2 img {
-        width: 30vw;
-        height: 20vw;
-    }
-
-    #portfolio .right-pictures {
-        margin-top: 10vw;
-        ;
 
     }
+
+
+
 
 }
 
