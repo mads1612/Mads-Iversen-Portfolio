@@ -149,7 +149,7 @@ header {
     background-image: linear-gradient(to right top, #1b1414, #1c1515, #1d1717, #1f1818, #201919, #211a1a, #231a1a, #241b1b, #261c1c, #271d1d, #291e1e, #2b1f1f);
     top: 0;
     position: fixed;
-    width: 100vw;
+    width: 900vw;
     height: 3vw;
 }
 
@@ -197,7 +197,7 @@ nav a {
 
 .dropdown {
     position: absolute;
-    left: 85vw;
+    left: 86vw;
     width: 6vw;
     line-height: 2.1vw;
     font-size: 1.3vw;
@@ -226,7 +226,7 @@ nav a {
     opacity: ;
     position: relative;
     right: 1vw;
-    bottom: 1vw;
+    bottom: 0.5vw;
     background-color: #160101;
 
 }
@@ -237,7 +237,7 @@ nav a {
 
 
 .dropdown:hover {
-    opacity: 1;
+    opacity: 0.9;
 }
 
 .dropdown-content a {
@@ -269,7 +269,7 @@ nav a {
 #portfolio {
     display: flex;
     flex-direction: column;
-    width: 100vw
+    width: 100vw;
 }
 
 
@@ -786,7 +786,9 @@ f .sidenav {
 }
 
 footer {
+
     /*    position: fixed;*/
+    height: 10vw;
     background-color: #2d3436;
     background-image: linear-gradient(315deg, #2d3436 0%, #000000 74%);
     background-color: #160101;
@@ -796,32 +798,38 @@ footer {
 
 #kontakt-row {
     display: flex;
+    height: 0;
     justify-content: center;
 
 }
 
 
 .circle {
-    flex-basis: 12vw;
+    margin: 2vw;
+    flex-basis: 14vw;
+    text-align: center;
+
+
 }
 
 .circle img {
-    width: 3vw;
+    width: 5vw;
 
 }
 
 
 #kontakt-row figcaption {
-    height: 1vw;
-    width: 6vw;
+    width: 13vw;
     color: #FAD102;
-    font-size: 0.6vw;
 
 
 }
 
 
+#kontakt-row p {
+    font-size: 1vw;
 
+}
 
 @media (min-width: 768px) and (max-width: 1024px) {
 
@@ -854,21 +862,34 @@ footer {
         font-size: 2.6vw;
     }
 
+    footer {
+        height: 13.4vw;
+    }
+
     #kontakt-row {
+        display: flex;
         margin-top: 10vw;
+
     }
 
     .circle {
-        width: 0vw;
+        flex-basis: 11vw;
+
     }
 
     .circle img {
-        width: 6vw;
+        width: 8vw;
     }
 
     #kontakt-row figcaption {
-        font-size: 1.5vw;
-        width: 18vw;
+        width: 10vw;
+
+
+    }
+
+    #kontakt-row p {
+        font-size: 1.1vw;
+
     }
 
     #om img {
@@ -1274,6 +1295,8 @@ footer {
         font-size: 1.5vw;
         width: 18vw;
     }
+
+    #kontakt-row p {}
 
     #om img {
 
