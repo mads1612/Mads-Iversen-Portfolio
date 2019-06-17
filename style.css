@@ -378,40 +378,36 @@ nav a {
 }
 
 #portfolio .tema-container2 {
-    height: 60vw;
+    justify-content: center;
+    height: 30vw;
+
+
 }
 
 
 #portfolio .tema-container2 p {
-    width: 36vw;
+    width: 11vw;
     font-size: 1vw;
+
+
 }
 
 #portfolio .tema-container2 h2 {
+    text-align: center;
+    margin-top: 1vw;
     font-size: 1.3vw;
 }
 
-#portfolio .tema-container2 h1 {
-    font-size: 1.7vw;
-    margin-top: 0;
+#portfolio .txt-top2 h2 {
+    font-size: 1.1vw;
 }
-
 
 #portfolio .left-column {
-    height: 45vw;
-    width: 40vw;
-    margin-left: 20vw;
-}
-
-
-#portfolio .tema-container2 img {
-    width: 25vw;
-    height: 15vw;
-}
-
-#portfolio .right-pictures {
-    margin-bottom: 8vw;
-    ;
+    flex-basis: 45vw;
+    display: flex;
+    height: 23vw;
+    justify-content: center;
+    margin-top: 0;
 
 }
 
